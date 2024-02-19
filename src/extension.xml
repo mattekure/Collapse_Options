@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <properties>
+        <name>Feature: Collapse Options</name>
+        <author>mattekure</author>
+        <version>1.0</version>
+        <description>Adds a collapse all to the options window</description>
+    </properties>
+    <announcement>
+        <text>Collapse Options v1.0\rCreated by mattekure 2024-02-18</text>
+        <font>systemfont</font>
+        <icon>Mattekure_Logo</icon>
+    </announcement>
+    <base>
+        <icon file="Mattekure_Logo.png" name="Mattekure_Logo"/>
+        <includefile source="options.xml"/>
+        <script file="optioncollapse_manager.lua" name="CollapseOptions"/>
+    </base>
+</root>

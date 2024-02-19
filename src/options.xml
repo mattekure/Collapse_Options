@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <windowclass merge="join" name="options">
+        <sheetdata>
+            <windowmenubar_utilitybox name="menubar">
+                <script>
+                    function onInit()
+                        if super and super.onInit then
+                            super.onInit()
+                        end
+                        ToolbarManager.addSeparator(subwindow, "right");
+                        ToolbarManager.addButton(subwindow, "collapse", "right");
+                        ToolbarManager.addButton(subwindow, "expandall", "right");
+                    end
+                </script>
+            </windowmenubar_utilitybox>
+        </sheetdata>
+    </windowclass>
+</root>
